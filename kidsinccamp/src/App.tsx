@@ -86,7 +86,7 @@ export default function App() {
                 className="inline-flex items-center gap-2 bg-white border-2 border-red-500 text-red-600 px-4 py-2 rounded-xl font-bold text-xs uppercase tracking-widest mb-8 shadow-[2px_2px_0px_#EF4444]"
               >
                 <AlertCircle size={16} strokeWidth={3} />
-                Early Bird Deadline: 10th May
+                Early Bird Deadline: 16th September
               </motion.div>
               
               <motion.h1 
@@ -95,7 +95,7 @@ export default function App() {
                 transition={{ delay: 0.1 }}
                 className="font-black text-5xl md:text-6xl lg:text-6xl text-slate-900 tracking-tighter leading-tight uppercase relative z-20"
               >
-                Join us for <br/><span className="text-[#0F172B] bg-[#FEF08A] px-2 inline-block mt-2">Summer Camp!</span>
+                Join us for <br/><span className="text-[#0F172B] bg-[#FEF08A] px-2 inline-block mt-2">Camp!</span>
               </motion.h1>
               
               <motion.p 
@@ -104,7 +104,7 @@ export default function App() {
                 transition={{ delay: 0.2 }}
                 className="mt-6 text-xl text-slate-800 max-w-xl font-bold relative z-20"
               >
-                Join us for an unforgettable summer packed with multi-activities, delicious food, and endless fun for children from junior infants to 6th class.
+                Join us for an unforgettable camp packed with multi-activities, delicious food, and endless fun for children from junior infants to 6th class.
               </motion.p>
               
               <motion.div 
@@ -132,7 +132,7 @@ export default function App() {
         {/* Quick Facts Grid */}
         <section id="details" className="px-6 max-w-6xl mx-auto mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <QuickFact icon={Calendar} title="29 Jun - 7 Aug" desc="6 weeks of summer fun" />
+            <QuickFact icon={Calendar} title="27th - 31st October" desc="1 week of camp fun" />
             <QuickFact icon={Clock} title="8:30am - 6:00pm" desc="Full day of activities" />
             <QuickFact icon={Users} title="Junior to 6th Class" desc="Perfect for primary ages" />
             <QuickFact icon={Euro} title="NCS Approved" desc="€2.14 hourly discount available" highlight={true} />
@@ -228,7 +228,7 @@ export default function App() {
               <div className="absolute -bottom-32 -left-32 w-64 h-64 bg-[#FEF08A] rounded-full mix-blend-multiply opacity-50 z-0 pointer-events-none" />
               
               <div className="relative z-10">
-                <h2 className="font-black text-4xl md:text-5xl text-slate-900 uppercase tracking-tighter mb-4">Ready for Summer?</h2>
+                <h2 className="font-black text-4xl md:text-5xl text-slate-900 uppercase tracking-tighter mb-4">Ready for Camp?</h2>
                 <p className="font-bold text-slate-600 text-lg md:text-xl max-w-xl mx-auto mb-10">
                   Secure your child's spot today and give them a summer filled with fun, learning, and new friends.
                 </p>
@@ -242,7 +242,7 @@ export default function App() {
                   Book Now
                 </a>
                 <p className="text-center text-xs font-black uppercase tracking-widest text-red-500 mt-6">
-                  Deadline: 10th May
+                  Deadline: 16th September
                 </p>
               </div>
             </div>
