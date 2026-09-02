@@ -95,7 +95,7 @@ export default function App() {
                 transition={{ delay: 0.1 }}
                 className="font-black text-5xl md:text-6xl lg:text-6xl text-slate-900 tracking-tighter leading-tight uppercase relative z-20"
               >
-                Join us for <br/><span className="text-[#0F172B] bg-[#FEF08A] px-2 inline-block mt-2">Camp!</span>
+                Join us for <br/><span className="text-[#0F172B] bg-[#FEF08A] px-2 inline-block mt-2">October Camp!</span>
               </motion.h1>
               
               <motion.p 
