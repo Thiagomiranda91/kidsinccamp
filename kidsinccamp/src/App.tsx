@@ -66,7 +66,7 @@ export default function App() {
               <Mail size={18} strokeWidth={2.5} />
               camps@kidsinc.ie
             </a>
-            <a href="#enroll" className="bento-button bg-[#DBEAFE] text-blue-900 px-6 py-2.5 text-sm inline-block">
+            <a href="https://tinyurl.com/kidsincsummercamp" className="bento-button bg-[#DBEAFE] text-blue-900 px-6 py-2.5 text-sm inline-block">
               Book Now
             </a>
           </div>
@@ -113,7 +113,7 @@ export default function App() {
                 transition={{ delay: 0.3 }}
                 className="mt-10 flex flex-col sm:flex-row gap-6 relative z-20"
               >
-                <a href="#enroll" className="bento-button bg-slate-900 text-white px-8 py-4 text-lg flex items-center justify-center gap-2">
+                <a href="https://tinyurl.com/kidsincsummercamp" className="bento-button bg-slate-900 text-white px-8 py-4 text-lg flex items-center justify-center gap-2">
                   Enroll Your Child
                 </a>
               </motion.div>
