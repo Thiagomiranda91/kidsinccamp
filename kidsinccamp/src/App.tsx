@@ -86,7 +86,7 @@ export default function App() {
                 className="inline-flex items-center gap-2 bg-white border-2 border-red-500 text-red-600 px-4 py-2 rounded-xl font-bold text-xs uppercase tracking-widest mb-8 shadow-[2px_2px_0px_#EF4444]"
               >
                 <AlertCircle size={16} strokeWidth={3} />
-                Early Bird Deadline: 16th September
+                Early Bird Deadline: 15th September
               </motion.div>
               
               <motion.h1 
@@ -132,7 +132,7 @@ export default function App() {
         {/* Quick Facts Grid */}
         <section id="details" className="px-6 max-w-6xl mx-auto mb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <QuickFact icon={Calendar} title="27th - 31st October" desc="1 week of camp fun" />
+            <QuickFact icon={Calendar} title="27th - 30th October" desc="1 week of camp fun" />
             <QuickFact icon={Clock} title="8:30am - 6:00pm" desc="Full day of activities" />
             <QuickFact icon={Users} title="Junior to 6th Class" desc="Perfect for primary ages" />
             <QuickFact icon={Euro} title="NCS Approved" desc="€2.14 hourly discount available" highlight={true} />
@@ -242,7 +242,7 @@ export default function App() {
                   Book Now
                 </a>
                 <p className="text-center text-xs font-black uppercase tracking-widest text-red-500 mt-6">
-                  Deadline: 16th September
+                  Deadline: 15th September
                 </p>
               </div>
             </div>
