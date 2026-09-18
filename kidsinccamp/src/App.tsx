@@ -66,7 +66,7 @@ export default function App() {
               <Mail size={18} strokeWidth={2.5} />
               camps@kidsinc.ie
             </a>
-            <a href="https://forms.gle/bETiNAdu2yevqUDJ8" className="bento-button bg-[#DBEAFE] text-blue-900 px-6 py-2.5 text-sm inline-block">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3iinjzyHRh4PKxIwwtyvB1j9Ronji7boN340I_RMUdm2hgQ/viewform" className="bento-button bg-[#DBEAFE] text-blue-900 px-6 py-2.5 text-sm inline-block">
               Book Now
             </a>
           </div>
@@ -86,7 +86,7 @@ export default function App() {
                 className="inline-flex items-center gap-2 bg-white border-2 border-red-500 text-red-600 px-4 py-2 rounded-xl font-bold text-xs uppercase tracking-widest mb-8 shadow-[2px_2px_0px_#EF4444]"
               >
                 <AlertCircle size={16} strokeWidth={3} />
-                Early Bird Deadline: 17th September
+                Waiting list is open!
               </motion.div>
               
               <motion.h1 
@@ -113,7 +113,7 @@ export default function App() {
                 transition={{ delay: 0.3 }}
                 className="mt-10 flex flex-col sm:flex-row gap-6 relative z-20"
               >
-                <a href="https://forms.gle/bETiNAdu2yevqUDJ8" className="bento-button bg-slate-900 text-white px-8 py-4 text-lg flex items-center justify-center gap-2">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3iinjzyHRh4PKxIwwtyvB1j9Ronji7boN340I_RMUdm2hgQ/viewform" className="bento-button bg-slate-900 text-white px-8 py-4 text-lg flex items-center justify-center gap-2">
                   Enroll Your Child
                 </a>
               </motion.div>
@@ -234,7 +234,7 @@ export default function App() {
                 </p>
 
                 <a 
-                  href="https://forms.gle/bETiNAdu2yevqUDJ8" 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc3iinjzyHRh4PKxIwwtyvB1j9Ronji7boN340I_RMUdm2hgQ/viewform" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-full md:w-auto bento-button bg-slate-900 text-white px-12 py-5 text-xl inline-flex items-center justify-center gap-2"
@@ -242,7 +242,7 @@ export default function App() {
                   Book Now
                 </a>
                 <p className="text-center text-xs font-black uppercase tracking-widest text-red-500 mt-6">
-                  Deadline: 17th September
+                  Waiting list is open
                 </p>
               </div>
             </div>
